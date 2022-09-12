@@ -36,7 +36,10 @@ img.logoSize{
     flex-wrap: wrap;
 }
 .backBest{
-    background-color: aqua;
+    background-image: url(/img/charms/Bestiary3.png);
+    background-size: 960px 380.83px;
+    background-position: center;
+
 }
 .pagination{
     display: flex;
@@ -54,4 +57,9 @@ img.logoSize{
 }
 .card-text{
     font-size:15px;
+}
+div.text-botton{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
