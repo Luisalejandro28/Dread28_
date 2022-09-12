@@ -1,0 +1,46 @@
+.imgSize{
+    width: 8vh;
+    display: flex;
+    justify-items: auto;
+}
+.posicion{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.logoSize{
+    width: 35vh;
+}
+.card-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.charmSize{
+    height: 2vh;
+}
+.posicion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.backBest{
+    background-color: aqua;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    height: auto;
+    border: 2.5px solid #416aa3;
+}
