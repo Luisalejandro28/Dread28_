@@ -1,3 +1,6 @@
+*{
+    font-family: sans-serif;
+}
 .imgSize{
     width: 8vh;
     display: flex;
@@ -41,6 +44,14 @@
     justify-content: center;
 }
 .card{
-    height: auto;
-    border: 2.5px solid #416aa3;
+    height: 37Vh;
+    border: 3.5px solid #416aa3;
+    border-radius: 10px;
+}
+.card-title{
+    font-size: 17px bond;
+    
+}
+.card-text{
+    font-size:15px;
 }
