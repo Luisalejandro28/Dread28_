@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+    font-family: Kufam;
 }
 .imgSize{
     width: 8vh;
@@ -36,7 +36,7 @@ img.logoSize{
     flex-wrap: wrap;
 }
 .backBest{
-    background-image: url(/img/charms/Bestiary3.png);
+    background-image: url(/img/charms/Bestiary4.png);
     background-size: 960px 380.83px;
     background-position: center;
 
