@@ -1,65 +1,62 @@
-*{
-    font-family: Kufam;
-}
-.imgSize{
-    width: 8vh;
-    display: flex;
-    justify-items: auto;
-}
-.posicion{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-}
-img.logoSize{
-    width: 24.5vh;
-}
-.card-title{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.info{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.charmSize{
-    height: 2vh;
-}
-.posicion1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.backBest{
-    background-image: url(/img/Bestiary4.png);
-    background-size: 960px 380.83px;
-    background-position: center;
+* {
+  font-family: Kufam; }
 
-}
-.pagination{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.card{
-    height: 37Vh;
-    border: 3.5px solid #416aa3;
-    border-radius: 10px;
-}
-.card-title{
-    font-size: 17px bond;
-    
-}
-.card-text{
-    font-size:15px;
-}
-div.text-botton{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
+.imgSize {
+  width: 8vh;
+  display: flex;
+  justify-items: auto; }
+
+.posicion {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center; }
+
+img.logoSize {
+  width: 24.5vh; }
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.charmSize {
+  height: 2vh; }
+
+.posicion1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.backBest {
+  background-image: url(/img/Bestiary4.png);
+  background-size: 960px 380.83px;
+  background-position: center; }
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.card {
+  height: 37Vh;
+  border: 3.5px solid #416aa3;
+  border-radius: 10px; }
+
+.card-title {
+  font-size: 17px bond; }
+
+.card-text {
+  font-size: 15px; }
+
+div.text-botton {
+  display: flex;
+  flex-direction: column;
+  justify-content: end; }

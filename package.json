@@ -1,0 +1,21 @@
+{
+  "name": "proyect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "build-css": "node-sass --include-path scss sass/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luisalejandro28/Dread28_.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luisalejandro28/Dread28_/issues"
+  },
+  "homepage": "https://github.com/Luisalejandro28/Dread28_#readme"
+}
