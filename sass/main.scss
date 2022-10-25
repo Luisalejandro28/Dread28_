@@ -1,6 +1,3 @@
-*{
-    font-family: Kufam;
-}
 .imgSize{
     width: 8vh;
     display: flex;
@@ -19,6 +16,7 @@ img.logoSize{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 17px;
 }
 .info{
     display: flex;
@@ -62,4 +60,23 @@ div.text-botton{
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+
+a.nav-link{
+    position: relative;
+}
+a.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: #992FBC ;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.nav-link:hover:before {
+    visibility: visible;
+    width: 100%;
 }
