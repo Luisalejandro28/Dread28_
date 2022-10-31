@@ -1,14 +1,16 @@
-/*function submit_form() {
-  level = document.getElementById("level").value
-  content = document.getElementById("expresults")
-  content.innerHTML = "";
-  lower_range = Math.round(level/1.5)
-  upper_range = Math.round(level*1.5)
-  content.innerHTML = content.innerHTML + "A character with level <b>" + level +"</b> can share experience with levels <b>" + lower_range + "</b> to <b>" + upper_range +"</b><br>"
-}*/
+let myLvl = parseInt(prompt("Your Level"));
+let minMax = 1.5
+let sharedMin = (myLvl,minMax) => {
+  return myLvl / minMax
+}
 
-let MyLevel = parseInt(prompt("My Level"));
-let minLevel = parseInt(MyLevel / 1.5)
-let maxLevel = parseInt(MyLevel * 1.5)
-result =`You share experience between levels ${minLevel} - ${maxLevel}`;
-alert(result);
+let sharedMax = (myLvl,minMax) => {
+  return myLvl * minMax
+}
+console.log(sharedMin(myLvl,minMax))
+console.log(sharedMax(myLvl,minMax))
+
+let result1 = parseInt(sharedMin(myLvl,minMax))
+let result2 = parseInt(sharedMax(myLvl,minMax))
+
+alert(`You share experience with Min ${result1} and Max ${result2}`)
