@@ -1,4 +1,4 @@
-let ventaCoins = prompt("Ingrese Cantidad a comprar")
+let ventaCoins = parseInt(prompt("Ingrese Cantidad a comprar"))
 let tibiaCoin = 25
 let precio = 0.9
 let precio1 = 0.85 
@@ -15,24 +15,25 @@ if (ventaCoins = 250) {
   } else if (ventaCoins < 250){
     alert(`Total a pagar ${totalPagar2}$`)
   }
-alert("Gracias por su compra")
-  
+  let nombreApellido = prompt("Ingrese su nombre y apellido")
+  if (nombreApellido) {
+    alert(`Nombre y Apellido: ${nombreApellido}`) 
+  }
+  let nombrePersonaje = prompt("Ingrese el nombre de su personaje")
+  if(nombrePersonaje){
+    alert(`Tu personaje es: ${nombrePersonaje}`)
+  }
+  let metodoPago = prompt("Binance o Bancaria").toLowerCase()
+  if(metodoPago === "binance"){
+    alert(`Binance Pay : 265464`);
+  }else {
+    alert("Pagar a Alias: luis.alejandro.dread");
+  }
+alert(`Gracias por su compra Sr/Sra. ${nombreApellido}`)
 
-  /*let myLvl = parseInt(prompt("Your Level"));
-let minMax = 1.5
-let sharedMin = (myLvl,minMax) => {
-  return myLvl / minMax
-}
 
-let sharedMax = (myLvl,minMax) => {
-  return myLvl * minMax
-}
-console.log(sharedMin(myLvl,minMax))
-console.log(sharedMax(myLvl,minMax))
 
-let result1 = parseInt(sharedMin(myLvl,minMax))
-let result2 = parseInt(sharedMax(myLvl,minMax))
 
-alert(`You share experience with Min ${result1} and Max ${result2}`)*/
+
 
 
