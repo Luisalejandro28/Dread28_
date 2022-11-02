@@ -1,1 +1,16 @@
 /Estilo de Fuente.txt
+
+
+Buenas tardes Luis me presento me llamo Cristian Ovejero, soy el tutor corrector encargado de realizar las correcciones de sus desafios, y por lo tanto procedo a darte el feedback del mismo. En primer lugar te queria mencionar que te voy a compartir el CheckList para que veas el puntaje que obtuviste y de acuerdo a este CheckList tengas una nocion de como calcule tu nota final en esta entrega. Aca te comparto el link de drive del CheckList al cual vas a poder acceder.
+
+https://drive.google.com/drive/folders/1MECOh6U2vS8SpQPEPFCCE-Z1ZeC58wkt?usp=sharing
+
+Terminando con lo que te mencione del CheckList voy a hablar sobre tu entrega. Observo que aplicaste de forma optima la estructura de tu proyecto HTML, y aplicaste el framework Bootstrap asi como tambien aplicaste estilos, pero veo que a tu entrega le faltan los puntos de incorporar algun algoritmo condicional y algun algoritmo con ciclo como puede ser por ejemplo en el caso de un algortimo condicional que vieron en la clase 2 que puede ser un if, if-else, if-elseif-else, o un switch que maneja multiples condiciones sobre una misma variable. Te falto tambien el punto de utilizar funciones para realizar algunas operciones, y con funciones la consigna hace referencia a que apliques alguna de las funciones que vieron en la clase 4 ya sea funciones por declaracion, funciones anonimas o funciones flecha. Con funciones por declaracion me refiero a lo siguiente por darte un ejemplo:
+
+function saludar() {
+
+   console.log("¡Hola estudiantes!");
+
+}
+
+Con que apliques alguna de estas funciones estaria perfecto, y si lo aplicas a tu proyecto por ejemplo podes crear 2 funciones una que se llame multiplicar que reciba como parametro el nivel que se almacena en tu variable MyLevel y dentro de la funcion realizas la operacion de multiplicar el nivel por 1,5 y retornas ese valor, para luego realizar la llamada a tu funcion y almacenar ese valor de retorno en tu variable maxLevel. Despues podes crear una funcion de nombre division que seria practicamente lo mismo con la diferencia que dentro del cuerpo de tu funcion vas a realizar otra operacion. Por ultimo te falto aplicar algun algoritmo con ciclo que vieron en la clase 3 como puede ser un for, un while o do-while. Estan perfectos los estilos que aplicaste a tu proyecto, asi como tambien la estructura que le aplicaste al mismo, pero para aprobarte el desafio necesito que cumplas con los puntos faltantes que te mencione. Estoy atento a tu re-entrega.

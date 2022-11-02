@@ -14,3 +14,6 @@ let result1 = parseInt(sharedMin(myLvl,minMax))
 let result2 = parseInt(sharedMax(myLvl,minMax))
 
 alert(`You share experience with Min ${result1} and Max ${result2}`)
+
+
+
