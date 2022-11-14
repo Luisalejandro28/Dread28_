@@ -45,7 +45,7 @@
     justify-content: center;
 }
 .card{
-    height: 37Vh;
+    height: auto;
     border: 3.5px solid #416aa3;
     border-radius: 10px;
 }
@@ -83,4 +83,33 @@ a.nav-link:hover:before {
 .textCal{
     color: black;
     font-size: 25px;
+}
+
+
+
+
+/*---------------PRUEBA---------------*/
+
+tool-tip{
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+    box-shadow: 0 0 10px black;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    border-radius: 8px;
+
+    top: 145%;
+    left: 20.5%;
+
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+:has(> tool-tip){
+    position: relative;
+}
+:has(>tool-tip):hover tool-tip{
+    opacity: 1;
 }
