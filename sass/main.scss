@@ -85,31 +85,54 @@ a.nav-link:hover:before {
     font-size: 25px;
 }
 
-
-
-
-/*---------------PRUEBA---------------*/
-
-tool-tip{
-    position: absolute;
-    z-index: 1;
-    pointer-events: none;
-    user-select: none;
-    box-shadow: 0 0 10px black;
-    padding: .5rem 1rem;
-    font-size: .8rem;
-    border-radius: 8px;
-
-    top: 145%;
-    left: 20.5%;
-
-    opacity: 0;
-    transition: opacity .3s ease;
+.ptoSize{
+    width: 10px;
 }
 
-:has(> tool-tip){
-    position: relative;
+/*----------Nuevo----------*/
+img {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-:has(>tool-tip):hover tool-tip{
-    opacity: 1;
+
+h1 {
+    color: royalblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
 }
+
+#contenedor-bosses {
+    max-width: 1200px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+p {
+    line-height: 1.8;
+}
+.producto {
+    max-width: 20%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border: solid 1px gray;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
