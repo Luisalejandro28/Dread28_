@@ -60,7 +60,7 @@ let bosses = [
     {id:59, nombre:"Srezz Yellow Eyes", cantidad: 60, tipo:  "Archfoe",img:"../img/imgbosstiary/Srezz_Yellow_Eyes.gif",localizacion:"Lion Sanctum"},
     {id:60, nombre:"Tentugly", cantidad: 60, tipo:  "Archfoe",img:"../img/imgbosstiary/Tentugly's_Head.gif",localizacion:"Rascacoon."},
     {id:61, nombre:"Thaian", cantidad: 60, tipo:  "Archfoe",img:"../img/imgbosstiary/Thaian.gif",localizacion:"Edron"},
-    {id:62, nombre:"The Count of the Core", cantidad: 60, tipo:  "Archfoe",img:"../img/imgbosstiary/The_Count_of_the_Core.gif",localizacion:"War Zone 5"},
+    {id:62, nombre:"The Count of the Core", cantidad: 300, tipo:  "Bane",img:"../img/imgbosstiary/The_Count_of_the_Core.gif",localizacion:"War Zone 5"},
     {id:63, nombre:"The Dread Maiden", cantidad: 60, tipo:  "Archfoe",img:"../img/imgbosstiary/The_Dread_Maiden.gif",localizacion:"Zarganash"},
     {id:64, nombre:"The Enraged Thorn Knight", cantidad: 60, tipo:  "Archfoe",img:"../img/imgbosstiary/The_Enraged_Thorn_Knight.gif",localizacion:"Desecrated Glade"},
     {id:65, nombre:"The Fear Feaster", cantidad: 60, tipo:  "Archfoe",img:"../img/imgbosstiary/The_Fear_Feaster.gif",localizacion:"Zarganash"},
